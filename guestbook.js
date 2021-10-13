@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = 'https://apikey-v2-297aesx8enyhdeg15q53y6mp5t4gv50tadvys801iym:835fab5f7f9fea95acf276453d60d11b@24c5001e-cc2b-4a63-8cb5-e50e3b219d84-bluemix.cloudantnosqldb.appdomain.cloud';
+const apiUrl = 'https://c2d4685c.eu-gb.apigw.appdomain.cloud/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
