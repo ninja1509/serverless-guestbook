@@ -39,18 +39,18 @@ const guestbook = {
   // retrieve entries and update the UI
   function loadEntries() {
     console.log('Loading entries...');
-    $('#entries').html('Loading entries...');
+    $('#read-guestbook-entries-sequence').html('Loading entries...');
     guestbook.get().done(function(result) {
-      if (!result.entries) {
+      if (!result.read-guestbook-entries-sequence) {
         return;
       }
 
       const context = {
-        entries: result.entries
+        entries: result.read-guestbook-entries-sequence
       }
-      $('#entries').html(entriesTemplate(context));
+      $('#read-guestbook-entries-sequence').html(entriesTemplate(context));
     }).error(function(error) {
-      $('#entries').html('No entries');
+      $('#read-guestbook-entries-sequence').html('No entries');
       console.log(error);
     });
   }
