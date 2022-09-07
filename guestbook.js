@@ -41,12 +41,12 @@ const guestbook = {
     console.log('Loading entries...');
     $('#entries').html('Loading entries...');
     guestbook.get().done(function(result) {
-      if (!result.entries) {
+      if (!result.read-guestbook-entries-sequence.json) {
         return;
       }
 
       const context = {
-        entries: result.entries
+        entries: read-guestbook-entries-sequence.json
       }
       $('#entries').html(entriesTemplate(context));
     }).error(function(error) {
