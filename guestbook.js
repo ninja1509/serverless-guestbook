@@ -1,3 +1,6 @@
+/**
+ * Web application
+ */
 const apiUrl = 'https://us-south.functions.appdomain.cloud/api/v1/web/sbarksdale.bridgespointeinc.nc%40gmail.com_dev/guestbook3';
 const guestbook = {
   // retrieve the existing guestbook entries
@@ -24,8 +27,6 @@ const guestbook = {
     });
   }
 };
-
-
 
 (function() {
 
