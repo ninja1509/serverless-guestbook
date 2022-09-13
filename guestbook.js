@@ -1,13 +1,13 @@
 /**
  * Web application
  */
-const apiUrl = 'https://us-south.functions.appdomain.cloud/api/v1/web/sbarksdale.bridgespointeinc.nc%40gmail.com_dev/guestbook3/';
+const apiUrl = 'https://us-south.functions.appdomain.cloud/api/v1/web/sbarksdale.bridgespointeinc.nc%40gmail.com_dev/guestbook3';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
     return $.ajax({
       type: 'GET',
-      url: `${apiUrl}read-guestbook-entries-sequence.json`,
+      url: `${apiUrl}/read-guestbook-entries-sequence.json`,
       dataType: 'json'
     });
   },
