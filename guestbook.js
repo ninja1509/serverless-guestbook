@@ -1,7 +1,7 @@
 /**
  * Web application
  */
-const apiUrl = 'https://us-south.functions.appdomain.cloud/api/v1/web/sbarksdale.bridgespointeinc.nc%40gmail.com_dev/guestbook';
+const apiUrl = 'https://eu-gb.functions.appdomain.cloud/api/v1/web/395da288-6950-46ea-98fd-435fffc27ddd/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
